@@ -77,7 +77,7 @@ aws s3 ls
 ### 5️⃣ Download File from S3
 
 ```bash
-aws s3 cp s3://poorva-s3-demo/hello.txt download.txt
+aws s3 cp s3://poorva-s3-demo/Hello.txt Download.txt
 ```
 
 ---
@@ -85,7 +85,7 @@ aws s3 cp s3://poorva-s3-demo/hello.txt download.txt
 ### 6️⃣ Verify File Content
 
 ```bash
-cat download.txt
+cat Download.txt
 ```
 
 ---
