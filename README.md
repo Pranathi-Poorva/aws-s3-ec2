@@ -100,9 +100,21 @@ aws s3 cp ec2.txt s3://poorva-s3-demo/
 ---
 
 ## 📸 Screenshots
+
+### Bucket Creation
+ 
 ![ Bucket creation](screenshots/Bucket_Created.png)
+
+### File Upload
+
 ![File upload](screenshots/UploadFileToS3.png)
+
+### AWS CLI commands
+
 ![AWS CLI commands](screenshots/AWS_CLI_Commands.png)
+
+### File Download verification
+
 ![File download verification](screenshots/S3_EC2.png)
 
 ---
@@ -121,15 +133,6 @@ aws s3 cp ec2.txt s3://poorva-s3-demo/
 * Enabled block public access
 * Used IAM credentials for secure access
 * Avoided hardcoding sensitive information
-
----
-
-## 🚀 Future Enhancements
-
-* Add IAM roles instead of access keys
-* Enable versioning in S3
-* Implement lifecycle policies
-* Integrate with Terraform for automation
 
 ---
 
